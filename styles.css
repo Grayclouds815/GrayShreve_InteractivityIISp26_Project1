@@ -9,7 +9,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
-    background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
+    background: linear-gradient(90deg, #fff 50%, #3f0847 50%);
 }
 input{
     display:none;
