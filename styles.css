@@ -7,9 +7,9 @@ body{
     height:100vh;
     display: flex; 
     justify-content: center;
-    align-items: "Roboto", sans-serif; 
-font-family: "Roboto" sans-serif;
-background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    background: linear-gradient(90deg, #fff 50%, #4a1010 50%);
 }
 input{
     display:none;
@@ -51,7 +51,7 @@ p{
     height:100%;
     top:0;
     left:0;
-    background-color:#fff;
+    background-color:#000;
     box-sizing: border-box;
     padding:0 13px;
     box-shadow: inset 20px 0 50px  rgba(0,0,0,0.5) 0 2px 5px rgba(0,0,0,0.5)
@@ -101,9 +101,6 @@ p{
     transform: rotate(-180deg);
 }
 #c3:checked ~ .flip-book #p3{
-    transform: rotate(-180deg);
-}
-#c1:checked ~ .flip-book #p1{
     transform: rotate(-180deg);
 }
 
