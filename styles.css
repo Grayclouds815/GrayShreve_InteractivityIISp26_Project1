@@ -1,6 +1,7 @@
 @font-face {
     font-family:'MyHandwriting-Regular';
-    src:url(MyHandwriting-Regular.otf) format('opentype')  
+    src:url(MyHandwriting-Regular.otf) format('opentype') ;
+    font-size: 100px;
 }
 
 body{
