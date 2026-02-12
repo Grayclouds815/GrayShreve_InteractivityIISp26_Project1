@@ -15,7 +15,7 @@ body{
     background: linear-gradient(90deg, #fff 50%, #3f0847 50%);
 }
 p{
-     color:#000;
+     color:#6010a0;
     line-height:45px;
     font-family: "larger-custom-regular", cursive;
 }
@@ -51,7 +51,7 @@ input{
 p{
     font-size: 14px;
     line-height: 24px;
-    font-family: "MyHandwriting-Regular", cursive;
+    font-family: "larger-custom-regular", cursive;
 }
 
 .front {
