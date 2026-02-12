@@ -16,7 +16,7 @@ body{
 }
 p{
      color:#000;
-    line-height: 60px;
+    line-height:45px;
     font-family: "larger-custom-regular", cursive;
 }
 input{
@@ -51,7 +51,7 @@ input{
 p{
     font-size: 14px;
     line-height: 24px;
-    font-family: "larger-custom-regular", cursive;
+    font-family: "MyHandwriting-Regular", cursive;
 }
 
 .front {
