@@ -1,7 +1,7 @@
 @font-face {
     font-family:'MyHandwriting-Regular';
     src:url(MyHandwriting-Regular.otf) format('opentype') ;
-    font-size: 100px;
+    font-size: 120px;
 }
 
 body{
@@ -16,7 +16,6 @@ body{
 }
 p{
      color:#000;
-    font-size: 90px;
     line-height: 45px;
     font-family: "MyHandwriting-Regular", cursive;
 }
