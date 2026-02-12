@@ -14,9 +14,6 @@ body{ position: fixed;
     background: linear-gradient(90deg, #fff 50%, #3f0847 50%);
 }
 p{ position:fixed;
-     top: 10%;
-     left: 50%;
-     transform: translate(-50%, -50%);
      color:#000;
     font-size: 80px;
     line-height: 40px;
