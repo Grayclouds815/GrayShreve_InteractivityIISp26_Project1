@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@0,100;0,300;0,400;0,500');
+@import url   ;
 
 
 body{
@@ -69,20 +69,7 @@ p{
     background-color:#ffffff;
 } 
 
-.next-btn {
-    position: absolute;
-    bottom: 13px;
-    right: 13px;
-    cursor: pointer;
-    color:#000000
-}
-.back-btn {
-    position: absolute;
-    bottom: 13px;
-    left: 13px;
-    cursor: pointer;
-    color:#fff;
-}
+
 
 #p1{
     z-index:3 ;
