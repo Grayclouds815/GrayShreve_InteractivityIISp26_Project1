@@ -3,7 +3,7 @@
     src:url(MyHandwriting-Regular.otf) format('opentype')  
 }
 
-body{ position: fixed;
+body{
     margin: 0;
     padding:0; 
     height:100vh;
@@ -13,7 +13,7 @@ body{ position: fixed;
     font-family: "MyHandwriting-Regular", cursive;
     background: linear-gradient(90deg, #fff 50%, #3f0847 50%);
 }
-p{ position:fixed;
+p{
      color:#000;
     font-size: 80px;
     line-height: 40px;
