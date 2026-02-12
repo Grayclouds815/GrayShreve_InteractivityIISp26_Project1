@@ -1,6 +1,6 @@
 @font-face {
-    font-family:'MyHandwriting-Regular';
-    src:url(MyHandwriting-Regular.otf) format('opentype') ;
+    font-family:'larger-custom-regular';
+    src:url(LargerCustom-Regular.otf) format('opentype') ;
     font-size: 120px;
 }
 
@@ -11,13 +11,13 @@ body{
     display: flex; 
     justify-content: center;
     align-items: center;
-    font-family: "MyHandwriting-Regular", cursive;
+    font-family: "larger-custom-regular", cursive;
     background: linear-gradient(90deg, #fff 50%, #3f0847 50%);
 }
 p{
      color:#000;
-    line-height:45px;
-    font-family: "MyHandwriting-Regular", cursive;
+    line-height: 60px;
+    font-family: "larger-custom-regular", cursive;
 }
 input{
     display:none;
@@ -51,7 +51,7 @@ input{
 p{
     font-size: 14px;
     line-height: 24px;
-    font-family: "MyHandwriting-Regular", cursive;
+    font-family: "larger-custom-regular", cursive;
 }
 
 .front {
