@@ -3,7 +3,21 @@
     src:url(LargerCustom-Regular.otf) format('opentype') ;
     font-size: 120px;
 }
-
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 200px;
+    background-color: rgba(255, 255, 255, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
 body{
     margin: 0;
     padding:0; 
