@@ -109,8 +109,27 @@ p{
 #c2:checked ~ .flip-book #p2{
     transform: rotate(-180deg);
 }
-#c3:checked ~ .flip-book #p3{
     transform: rotate(-180deg);
+}
+
+/* Style for navigation buttons */
+.next-btn, .back-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 0;
+    background-color: #6010a0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "larger-custom-regular", cursive;
+    cursor: pointer;
+    text-align: center;
+    transition: background 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+.next-btn:hover, .back-btn:hover {
+    background-color: #3f0847;
 }
 
 
