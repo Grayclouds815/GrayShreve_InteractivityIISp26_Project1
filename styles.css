@@ -3,20 +3,7 @@
     src:url(LargerCustom-Regular.otf) format('opentype') ;
     font-size: 120px;
 }
-container {
-    position: fixed;
-    top: 25%;
-    left: 50%;
-    transform: translate(50%, -50%);
-    width: 600px;
-    height: 400px;
-    background-color: rgba(169, 65, 65, 0.8);
-    display: flex;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-    padding: 20px;
-    box-sizing: border-box; }
+
 
 body{
     margin: 0;
