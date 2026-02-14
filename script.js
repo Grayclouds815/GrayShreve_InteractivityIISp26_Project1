@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
 		nextBtn.addEventListener('click', function() {
 			console.log('Next button clicked!');
 			// Add your button logic here
-		});
+            window.location.href = 'next.html';
+        });
 	}
 })
