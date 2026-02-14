@@ -4,102 +4,77 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Zine</title>
-     <link rel="stylesheet" href="styles.css">
-<style>
-     @font-face {
-    font-family:'MyHandwriting-Regular';
-    src:url(LargerCustom-Regular.otf); 
-}
-</style>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @font-face {
+            font-family: 'MyHandwriting-Regular';
+            src: url(LargerCustom-Regular.otf); 
+        }
+    </style>
 </head>
-<body>
-    <div class="container">
-</body>
-<script src="script.js"></script>
-   Hi I am Gray and this is how being chronically ill influences me. Being chronically ill can be very uncomfortable 
-   and scary so I want to share my expierence of what ive leared from my body. </p>
-   </div>
-   <div class="book"> 
-<input type="checkbox" id="c1"> 
-<input type="checkbox" id="c2">
-<input type="checkbox" id="c3">
-<div id="cover"><img width="250px" height="400px" src="/Background1.png"></div>
-<div class="flip-book">
-<div class="flip" id="p1"> 
-<div class="back"> 
+ <button id="next-btn">Next</button>
+<body class="container">
+        <p position="absolute" top="50px" left="50px" font-family="MyHandwriting-Regular" font-size="20px">
+            Hi I am Gray and this is how being chronically ill influences me. Being chronically ill can be very uncomfortable 
+            and scary so I want to share my expierence of what my body has taught me. I have been sick for a long time and I have
+            learned to listen to my body and take care of myself. I have also learned to be patient with myself and to not push 
+            myself too hard. I have learned to ask for help when I need it and to not be afraid to say no. I have learned to 
+            appreciate the little things in life and to find joy in the small moments. I have learned that being sick does not 
+            define me and that I am still capable of living a full and meaningful life.
+        </p>
+        </body>
+        <div class="book"> 
+            <input type="checkbox" id="c1"> 
+            <input type="checkbox" id="c2">
+            <input type="checkbox" id="c3">
+            <div id="cover"><img width="250px" height="400px" src="/Background1.png" alt="Cover"></div>
 
-<div id="next-btn">Next<img width="20px" height="20px" 
-     src="images/Remove background project (2).png"
-     class="front-img" 
-        alt="Next Button">
-</div>
-<div class="front" src="images/1.jpg">
-<h2>MEOW</h2>
-<p class="front"> 
-This is where I will write. 
-</p>
-    <label class="next-btn" for="c1">Next</label>
-</div>
-
-<div class="flip" id="p2"> 
-<div class="back"> 
-<div src=""> 
-    <label class="back-btn" for="c2">Back</label>
-</div>
-<div class="front">
-<h2>Apple</h2>
-<p>
-
-</p>
-    <label class="next-btn" for="c2">next</label>
-</div>
-
-<div class="flip" id="p3"> 
-<div class="back"> 
-<div src=""> 
-    <label class="back-btn" for="c2"></label>
-</div>
-
-<div class="front">
-<h2>Apple</h2>
-<p> 
-</p>
-    <label class="next-btn" for="c1"></label>
-</div>
+            </div>
 
 
-<div class="front">
-<h2>Apple</h2>
-<p> 
-</p>
-    <label class="next-btn" for="c2"></label>
-</div>
 
+    <div class="flip-book"> 
+        <input type="checkbox" id="c1"> 
+        <input type="checkbox" id="c2">
+        <input type="checkbox" id="c3">
+        <div id="cover"><img width="250px" height="400px" src="/Background1.png" alt="Cover"></div>
+        <div class="flip-book">
+            <div class="flip" id="p1"> 
+                <div class="back"> 
+ 
+                </div>
+                <div class="front">
+                    <h2>MEOW</h2>
+                    <p class="front"> 
+                        This is where I will write. 
+                    </p>
+                    <label class="next-btn" for="c1">Next</label>
+                </div>
+            </div>
 
-<div class="front">
-<h2>Apple</h2>
-<p> 
-</p>
-    <label class="next-btn" for="c3"></label>
-</div>
+            <div class="flip" id="p2"> 
+                <div class="back"> 
+                    <label class="back-btn" for="c1">Back</label>
+                </div>
+                <div class="front">
+                    <h2>Apple</h2>
+                    <p></p>
+                    <label class="next-btn" for="c2">next</label>
+                </div>
+            </div>
 
-<div class="flip" id="p2"> 
-<div class="back"> 
-<div src="2.jpg"> 
-    <label class="back-btn" for="c1"></label>
-</div>
-
-<div class="flip" id="p3"> 
-<div class="back"> 
-<div src="3.jpg"> 
-    <label class="back-btn" for="c2"></label>
-</div>
-
-
-</div>
-</div>
-</div> 
-</div>
-    
+            <div class="flip" id="p3"> 
+                <div class="back"> 
+                    <label class="back-btn" for="c2">Back</label>
+                </div>
+                <div class="front">
+                    <h2>Apple</h2>
+                    <p></p>
+                    <label class="next-btn" for="c3">Next</label>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
