@@ -1,4 +1,4 @@
-// Add event listener for the Next button
+			// Add event listener for the Next button
 document.addEventListener('DOMContentLoaded', function() {
 	var nextBtn = document.getElementById('next-btn');
 	if (nextBtn) {
