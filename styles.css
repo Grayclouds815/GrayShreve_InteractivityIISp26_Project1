@@ -26,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: "larger-custom-regular", cursive;
-    background: linear-gradient(90deg, #fff 50%, #000000 50%);
+    background: linear-gradient(90deg, #fff 50%, #ffffff 50%);
 }
 p{
      color:#6010a0;
@@ -37,21 +37,5 @@ input{
     display:none;
 } 
 
-/* Style for navigation buttons */
-.next-btn, .back-btn {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px 0;
-    background-color: #6010a0;
-    color: #000000;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    font-family: "larger-custom-regular", cursive;
-    cursor: pointer;
-    text-align: center;
-    transition: background 0.2s;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-}
 
 
