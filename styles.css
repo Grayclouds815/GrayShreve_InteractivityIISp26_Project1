@@ -12,9 +12,9 @@ container {
     height: 400px;
     background-color: rgba(169, 65, 65, 0.8);
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
     padding: 20px;
     box-sizing: border-box; }
 
