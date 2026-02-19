@@ -16,7 +16,7 @@ body{
     background: linear-gradient(90deg, #fff 50%, #ffffff 50%);
 }
 p{
-     color:#6010a0;
+     color:#0a0112;
     line-height:45px;
     font-family: "larger-custom-regular", cursive;
 }
@@ -27,5 +27,6 @@ input{
 img{
     background:transparent
 }
+
 
 
