@@ -9,3 +9,14 @@ document.addEventListener('DOMContentLoaded', function() {
         });
 	}
 })
+
+document.addEventListener('DOMContentLoaded', function() {
+	var backBtn = document.getElementById('back-btn');
+	if (backBtn) {
+		backBtn.addEventListener('click', function() {
+			console.log('Back button clicked!');
+			// Add your button logic here
+            window.location.href = 'index.html';
+        });
+	}
+})
