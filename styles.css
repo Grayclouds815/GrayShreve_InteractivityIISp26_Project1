@@ -27,3 +27,7 @@ input{
 img{
     background:transparent
 }
+
+html{
+    -webkit-text-size-adjust: 100%;
+}
